@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: Spring Security 6 DEMO
+  sql:
+    init:
+      mode: embedded
+logging:
+  level:
+    org.springframework.security: DEBUG
+server:
+  servlet:
+    session:
+      timeout: 1s
